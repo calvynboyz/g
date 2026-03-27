@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CALVYN | OFFICIAL</title>
+    <title>CALVYN</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Orbitron:wght@400;700&family=Rajdhani:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     
@@ -156,7 +156,6 @@
             backdrop-filter: blur(10px);
             transition: 0.3s;
         }
-        /* เปลี่ยนภาพปกเป็น Starboy */
         .mini-art { width: 40px; height: 40px; object-fit: cover; }
         .mini-info { flex: 1; padding-left: 12px; }
         .mini-title { font-family: 'Orbitron'; font-size: 0.55rem; font-weight: 700; display: block; color: #fff; }
@@ -251,7 +250,7 @@
         <img src="https://img1.pic.in.th/images/calvyn.png" class="main-logo" alt="CALVYN Logo">
         <h1 class="brand-name">CALVYN</h1>
         <div class="divider-line"></div>
-        <a href="#" class="member-btn">
+        <a href="https://calvynboyz.github.io/liastname/" class="member-btn">
             <i class="fa-solid fa-user-group"></i>
             <span>Members</span>
         </a>
@@ -397,7 +396,6 @@
             return min + ":" + (sec < 10 ? '0' : '') + sec;
         }
 
-        // Click to play initially due to browser policy
         document.body.addEventListener('click', () => {
             if(player && !isPlaying) player.playVideo();
         }, { once: true });
